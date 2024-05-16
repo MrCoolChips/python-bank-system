@@ -25,13 +25,15 @@ Below is a list of profiles you can use to log in:
 - **Lucien Profile:** Contains information used for testing purposes.
 - Other profiles do not contain any information.
 
-Damso: ID -> 38654157, Password -> 144166
-Lucien: ID -> 59455164, Password -> 235971
-Paul: ID -> 23456789, Password -> 104598
-Marie: ID -> 19283746, Password -> 864246
-Lucas: ID -> 45657354, Password -> 324954
-Jeanne: ID -> 98432761, Password -> 541963
-Benoit: ID -> 98718525, Password -> 957263
+Examples:
+
+- Damso: ID -> 38654157, Password -> 144166
+- Lucien: ID -> 59455164, Password -> 235971
+- Paul: ID -> 23456789, Password -> 104598
+- Marie: ID -> 19283746, Password -> 864246
+- Lucas: ID -> 45657354, Password -> 324954
+- Jeanne: ID -> 98432761, Password -> 541963
+- Benoit: ID -> 98718525, Password -> 957263
 
 ---
 
