@@ -1,57 +1,46 @@
+# Welcome to DEMJ & Co.
 
---------- BIENVENUE CHEZ DEMJ & Co. ---------
+## How to Launch Our Application
 
--Pour lancer notre application :
+**Important:** Ensure you have downloaded Python 3. Versions earlier than Python 3 are not compatible. We fully support Python 3 to 3.9.
 
-/!\ Assurez vous d'avoir téléchargé Python3 (Soucis de compatibilités avec les versions inférieures).
-    
-    Python 3 à 3.9 pleinement supportés.
+**Step 1:** Download the PySide2 module:
+- Execute the command `pip install pyside2` in your terminal.
 
-/!\ Téléchargez le module PySide2 :
-    
-    - exécutez la commande "pip install pyside2" dans votre terminal.
+### Method 1:
 
-Méthode 1 :
+The easiest way to launch our application is to open the `Launcher.py` file in the main directory, then open it in Python IDLE. Once opened, press the F5 key on your keyboard to start the application.
 
-La manière la plus simple de lancer notre application est d'ouvrir le fichier
-Laucher.py dans le dossier principal puis de l'ouvrir dans l'IDLE python,
-une fois ouvert appuyer sur la touche F5 de votre clavier et l'application s'ouvrira.
+### Method 2:
 
-Méthode 2 :
+You can also right-click on the `Launcher.py` file, select "Open with," and then choose Python.
 
-Vous pouvez aussi faire un clic droit sur le fichier Launcher.py, allez sur "ouvrir avec"
-puis sélectionnez python.
+---
 
----------------------------------------------
+## Available Profiles
 
-Voici une liste de profils auxquels vous pouvez vous connecter:
+Below is a list of profiles you can use to log in:
 
-Le profil Damso contient les informations qui se rapprochent le plus d'une utilisation réelle.
-Le profil Lucien contient des informations qui ont servi à des tests.
-Le autres profils ne contiennent aucune information.
+- **Damso Profile:** Contains information closely related to actual use.
+- **Lucien Profile:** Contains information used for testing purposes.
+- Other profiles do not contain any information.
 
-#Damso : identifiant -> 38654157, mot de passe -> 144166
-#Lucien : identifiant -> 59455164, mot de passe -> 235971
+Damso: ID -> 38654157, Password -> 144166
+Lucien: ID -> 59455164, Password -> 235971
+Paul: ID -> 23456789, Password -> 104598
+Marie: ID -> 19283746, Password -> 864246
+Lucas: ID -> 45657354, Password -> 324954
+Jeanne: ID -> 98432761, Password -> 541963
+Benoit: ID -> 98718525, Password -> 957263
 
-Paul : identifiant -> 23456789, mot de passe -> 104598
-Marie : identifiant -> 19283746, mot de passe -> 864246
-Lucas : identifiant -> 45657354, mot de passe -> 324954
-Jeanne : identifiant -> 98432761, mot de passe -> 541963
-Benoit : identifiant -> 98718525, mot de passe -> 957263
+---
 
----------------------------------------------
+## Notes
 
-À noter :
+- Only the back buttons on the two main windows ("Manage My Accounts" and "Manage My Budgets") save the information added to accounts.
+- It is recommended that you download the fonts from the Fonts folder (`.../Projet_INFO/Polices`) to avoid display issues.
+- The `.ui` files are XML files for the graphical interface. Do not modify them! Similarly, avoid altering other `.py` files to prevent corruption.
 
-- Seuls les boutons retours des deux fenêtres principales ("Gérer mes comptes" et "Gérer me budgets")
-  permettent de sauvegarder les informations ajoutées à des comptes.*
+---
 
-- Il est préférable que vous téléchargier les polices d'écriture du dossier Polices
-  (.../Projet_INFO/Polices) pour éviter les soucis d'affichage
-
-- Les fichiers .ui sont des fichiers XML pour la partie graphique. Il ne faut pas les modifier !
-  Il ne faut pas non plus toucher aux autres fichier .py sous risque de les corrompre.
-
---------------------------------------------
-
-FIN
+**End**
